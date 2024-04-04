@@ -17,16 +17,16 @@ To use this chip in your project, include it as a dependency in your `diagram.js
 
 ```json
   "dependencies": {
-    "chip-inverter": "github:wokwi/inverter-chip@1.0.0"
+    "chip-inverter": "github:devilxnux/at24cxx-chip@1.0.0"
   }
 ```
 
-Then, add the chip to your circuit by adding a `chip-inverter` item to the `parts` section of diagram.json:
+Then, add the chip to your circuit by adding a `at24cxx-inverter` item to the `parts` section of diagram.json:
 
 ```json
   "parts": {
     ...,
-    { "type": "chip-inverter", "id": "chip1" }
+    { "type": "at24cxx-inverter", "id": "chip1" }
   },
 ```
 
