@@ -17,7 +17,7 @@ To use this chip in your project, include it as a dependency in your `diagram.js
 
 ```json
   "dependencies": {
-    "chip-inverter": "github:devilxnux/at24cxx-chip@1.0.0"
+    "chip-inverter": "github:devilxnux/at24cxx-chip@0.0.1"
   }
 ```
 
